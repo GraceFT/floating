@@ -1,0 +1,31 @@
+.box1, .box2, .box3 {
+    width: 150px;
+    height: 100px;    
+}
+.caja4{
+    border: 1px solid gray;
+}
+.box1 {
+    background-color: #ffff00;
+}
+.box2 {
+    background-color: #3a81ba;
+}
+.box3 {
+    background-color: #ed2251;
+}
+.box {
+    background-color: rgba(228,150,111,0.5);
+    font-size: 20px;  
+    border-radius: 5px;
+    margin-top: 20px;
+    border-bottom: 5px solid rgba(235,167,221,0.5);
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.box:hover{
+    background-color: rgba(235,167,221,0.5);
+    transition: all 500ms ease;
+    font-size: 25px; 
+}
